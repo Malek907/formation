@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		 <report 
+            id="report_registration"
+            model="registration.registration"
+            string="Inscription"
+            report_type="qweb-html"
+            name="Formation3.report_reg"
+            file="Formation3.report_reg"
+            attachment_use="False"
+            print_report_name="'Inscription - %s' %(object.code)"
+        />
+</odoo>

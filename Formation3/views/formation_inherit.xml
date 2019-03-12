@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+                <record model="ir.ui.view" id="student_inherit_form_view">
+                <field name="name">res.partner.form.inherit</field>
+                <field name="model">res.partner</field>
+                <field name="type">form</field>
+                <field name="inherit_id" ref="base.view_partner_form"/>
+                <field name="arch" type="xml">
+                    <page name="internal_notes" position="after">
+	                    <page string='Information etudiants' groups='Formation3.groupe_user'>
+	                    <group>
+	                 
+	                    <field name="birthday"/>
+	                   	<field name="age"/>
+	                    	
+	                    </group>
+	            
+
+	                    </page>  
+	                    
+	                    
+	                    
+	                    <page string='Inscriptions' attrs="{'invisible':[('customer','=',True)]}">
+	                             
+	                    <group>
+	                    <field name="reg_ids"/>
+	                    
+	                    
+	                    </group>
+	            
+
+	                    </page> 
+	                    
+	                    
+	                     
+	                  
+                    </page>
+                    
+                    
+                 
+                </field>
+            </record>
+            
+ 
+ 
+            <!--Tree view-->
+            <record model="ir.ui.view" id="teacher_tree_view">
+                <field name="name">teacher.teacher.tree</field>
+                <field name="model">teacher.teacher</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="tree_string">
+                        <field name="name"/>
+                        <field name="age"/>
+                        <field name="cin"/>
+                        
+                    </tree>
+                </field>
+            </record>
+            
+			<!--form view-->
+            <record model="ir.ui.view" id="teacher_form_view">
+                <field name="name">teacher.teacher.form</field>
+                <field name="model">teacher.teacher</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="form_string">
+                     <sheet>
+                    	<group>
+	                    	<group>
+	                    		<field name="name"/>
+	                    		<field name="cin"/>
+	                    	</group>
+	                    	<group>
+	                    		<field name="age"/>
+	                    	</group>
+                    	</group>
+                    	<notebook>
+                            <page name="public" string="Work Information">
+                                <group>
+                                    <group string="Contact Information">
+                                        <field name="address_id"/>
+                                        <field name="work_location"/>
+                                        <field name="work_email" widget="email"/>
+                                        <field name="mobile_phone"/>
+                                        <field name="work_phone"/>
+                                    </group>
+                                    <group string="Position">
+                                        <field name="department_id"/>
+                                        <field name="job_id"/>
+                                        <field name="parent_id"/>
+                                        <field name="coach_id"/>
+                                        <field name="resource_calendar_id"/>
+                                    </group>
+                                </group>
+                                <field name="notes" placeholder="Other Information ..." colspan="4"/>
+                            </page>
+                            </notebook>
+                    </sheet>
+                   </form>
+                </field>
+            </record>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+			
+			<!-- Action view-->
+            <record model="ir.actions.act_window" id="teacher_action_view">
+                <field name="name">Professeurs</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">teacher.teacher</field>
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+                <!-- <field name="context">{'default_field':'value'}</field>-->
+            </record>
+           
+            
+           <!-- Action view-->
+            <record model="ir.actions.act_window" id="student_action_view">
+                <field name="name">Etudient</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">res.partner</field>
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form,kanban</field>
+                <field name="domain">[('age','=',25)]</field>
+           <field name="context">{'default_age':25}</field>
+            </record>
+            
+
+</odoo>
+

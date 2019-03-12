@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--Tree view-->
+            <record model="ir.ui.view" id="cycle_tree_view">
+                <field name="name">cycle.cycle.tree</field>
+                <field name="model">cycle.cycle</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Cycle">
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="description"/>
+                    </tree>
+                </field>
+            </record>
+            
+			<!--form view-->
+            <record model="ir.ui.view" id="cycle_form_view">
+                <field name="name">cycle.cycle.form</field>
+                <field name="model">cycle.cycle</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="form_string">
+                     <sheet>
+                    	<group>
+	                    	<group>
+	                    		<field name="name"/>
+	                    	</group>
+	                    	<group>
+	                    		<field name="code"/>
+	                    	</group>
+                    	</group>
+                    	<notebook>
+                            <page string="Niveau">
+                                <field name="level_ids"/>
+                                <tree>
+                                	                    		<field name="name"/>
+                                	                    		<field name="code"/>
+                                
+                                </tree>
+                            </page>
+                        </notebook>
+                    </sheet>
+                   </form>
+                </field>
+            </record>
+			
+			<!-- Action view-->
+            <record model="ir.actions.act_window" id="cycle_action_view">
+                <field name="name">Cycle</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">cycle.cycle</field>
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+                <!-- <field name="context">{'default_field':'value'}</field>-->
+            </record>
+            </odoo>

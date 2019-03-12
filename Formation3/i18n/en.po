@@ -1,0 +1,643 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* Formation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-11 10:00+0000\n"
+"PO-Revision-Date: 2019-03-11 11:44+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Language: en\n"
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.a
+msgid "<strong>Code:</strong>"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.a
+msgid "<strong>Nom:</strong>"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.a
+msgid "<strong>Total des Réclammations</strong>"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher_age
+msgid "Age"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_year_id
+#: model:ir.model.fields,field_description:Formation.field_session_session_year_id
+msgid "Annee"
+msgstr "Year"
+
+#. module: Formation
+#: selection:claim.claim,state:0
+#: model:ir.ui.view,arch_db:Formation.claim_request_view_search
+#: model:ir.ui.view,arch_db:Formation.reg_form_view
+#: selection:registration.registration,state:0
+msgid "Annuler"
+msgstr "Cancel"
+
+#. module: Formation
+#: model:ir.ui.menu,name:Formation.year_menu
+msgid "Année Univ"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher_cin
+msgid "CIN"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.wiz__function_name
+msgid "Calcul de  l'age"
+msgstr "Age calculation"
+
+#. module: Formation
+#: model:ir.ui.menu,name:Formation.student_wizard_menu
+#: model:ir.ui.view,arch_db:Formation.student_wizard_form_view
+msgid "Calcul de l'age"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.student_wizard_action_view
+msgid "Calcule de l'age"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.student_wizard_form_view
+msgid "Calculer"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.model_name_calendar_view
+msgid "Calendar View"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_code
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_code
+#: model:ir.model.fields,field_description:Formation.field_level_level_code
+#: model:ir.model.fields,field_description:Formation.field_module_module_code
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_code
+#: model:ir.model.fields,field_description:Formation.field_section_section_code
+#: model:ir.model.fields,field_description:Formation.field_session_session_code
+#: model:ir.model.fields,field_description:Formation.field_year_year_code
+#: model:ir.ui.view,arch_db:Formation.a
+msgid "Code"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.menu,name:Formation.conf_root_menu
+msgid "Configuration"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.teacher_form_view
+msgid "Contact Information"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_calc_age_wiz_create_uid
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_create_uid
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_create_uid
+#: model:ir.model.fields,field_description:Formation.field_level_level_create_uid
+#: model:ir.model.fields,field_description:Formation.field_module_module_create_uid
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_create_uid
+#: model:ir.model.fields,field_description:Formation.field_section_section_create_uid
+#: model:ir.model.fields,field_description:Formation.field_session_session_create_uid
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher_create_uid
+#: model:ir.model.fields,field_description:Formation.field_year_year_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_calc_age_wiz_create_date
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_create_date
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_create_date
+#: model:ir.model.fields,field_description:Formation.field_level_level_create_date
+#: model:ir.model.fields,field_description:Formation.field_module_module_create_date
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_create_date
+#: model:ir.model.fields,field_description:Formation.field_section_section_create_date
+#: model:ir.model.fields,field_description:Formation.field_session_session_create_date
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher_create_date
+#: model:ir.model.fields,field_description:Formation.field_year_year_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.cycle_action_view
+#: model:ir.model.fields,field_description:Formation.field_level_level_cycle_id
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_cycle_id
+#: model:ir.ui.menu,name:Formation.cycle_menu
+msgid "Cycle"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,help:Formation.field_claim_claim_end_date
+#: model:ir.model.fields,help:Formation.field_claim_claim_start_date
+#: model:ir.model.fields,help:Formation.field_registration_registration_end_date
+#: model:ir.model.fields,help:Formation.field_registration_registration_start_date
+#: model:ir.model.fields,help:Formation.field_session_session_end_date
+#: model:ir.model.fields,help:Formation.field_session_session_start_date
+#: model:ir.model.fields,help:Formation.field_year_year_end_date
+#: model:ir.model.fields,help:Formation.field_year_year_start_date
+msgid "Date"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_start_date
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_start_date
+#: model:ir.model.fields,field_description:Formation.field_session_session_start_date
+#: model:ir.model.fields,field_description:Formation.field_year_year_start_date
+msgid "Date de debut"
+msgstr "Start day"
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_end_date
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_end_date
+#: model:ir.model.fields,field_description:Formation.field_session_session_end_date
+#: model:ir.model.fields,field_description:Formation.field_year_year_end_date
+msgid "Date de fin"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_res_partner_birthday
+#: model:ir.model.fields,field_description:Formation.field_res_users_birthday
+msgid "Date de naissance"
+msgstr "bIRTHDAY"
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_description
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_description
+#: model:ir.model.fields,field_description:Formation.field_level_level_description
+#: model:ir.model.fields,field_description:Formation.field_module_module_description
+#: model:ir.model.fields,field_description:Formation.field_section_section_description
+#: model:ir.model.fields,field_description:Formation.field_session_session_description
+#: model:ir.model.fields,field_description:Formation.field_year_year_description
+#: model:ir.ui.view,arch_db:Formation.a
+#: model:ir.ui.view,arch_db:Formation.claim_form_view
+#: model:ir.ui.view,arch_db:Formation.claim_view_pivot
+#: model:ir.ui.view,arch_db:Formation.model_name_form_view
+msgid "Description"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.claim_request_view_search
+msgid "DescriptionSearch"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_calc_age_wiz_display_name
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_display_name
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_display_name
+#: model:ir.model.fields,field_description:Formation.field_level_level_display_name
+#: model:ir.model.fields,field_description:Formation.field_module_module_display_name
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_display_name
+#: model:ir.model.fields,field_description:Formation.field_section_section_display_name
+#: model:ir.model.fields,field_description:Formation.field_session_session_display_name
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher_display_name
+#: model:ir.model.fields,field_description:Formation.field_year_year_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.report,name:Formation.report_registration
+msgid "Dossier inscription"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_res_partner_student_ok
+#: model:ir.model.fields,field_description:Formation.field_res_users_student_ok
+msgid "Est un etudiant"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_student_id
+#: model:ir.ui.menu,name:Formation.etudiant_menu
+msgid "Etudiant"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.student_action_view
+msgid "Etudiants"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.menu,name:Formation.model_name_root
+msgid "FORMATION"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.student_wizard_form_view
+msgid "Fermer"
+msgstr "Close"
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_calc_age_wiz_from_date
+msgid "From Date"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.claim_graph_view
+msgid "Graphes"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.claim_request_view_search
+msgid "Group by..."
+msgstr ""
+
+#. module: Formation
+#: selection:claim.claim,priority:0
+msgid "High"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_calc_age_wiz_id
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_id
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_id
+#: model:ir.model.fields,field_description:Formation.field_level_level_id
+#: model:ir.model.fields,field_description:Formation.field_module_module_id
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_id
+#: model:ir.model.fields,field_description:Formation.field_section_section_id
+#: model:ir.model.fields,field_description:Formation.field_session_session_id
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher_id
+#: model:ir.model.fields,field_description:Formation.field_year_year_id
+msgid "ID"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.student_inherit_form_view
+msgid "Information etudiants"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.reg_action_view
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_reg_id
+#: model:ir.model.fields,field_description:Formation.field_res_partner_reg_ids
+#: model:ir.model.fields,field_description:Formation.field_res_users_reg_ids
+#: model:ir.ui.menu,name:Formation.ins_root_menu
+#: model:ir.ui.menu,name:Formation.reg_menu
+#: model:ir.ui.view,arch_db:Formation.claim_request_view_search
+#: model:ir.ui.view,arch_db:Formation.reg_tree_view
+msgid "Inscription"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.student_inherit_form_view
+msgid "Inscriptions"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_calc_age_wiz___last_update
+#: model:ir.model.fields,field_description:Formation.field_claim_claim___last_update
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle___last_update
+#: model:ir.model.fields,field_description:Formation.field_level_level___last_update
+#: model:ir.model.fields,field_description:Formation.field_module_module___last_update
+#: model:ir.model.fields,field_description:Formation.field_registration_registration___last_update
+#: model:ir.model.fields,field_description:Formation.field_section_section___last_update
+#: model:ir.model.fields,field_description:Formation.field_session_session___last_update
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher___last_update
+#: model:ir.model.fields,field_description:Formation.field_year_year___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_calc_age_wiz_write_uid
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_write_uid
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_write_uid
+#: model:ir.model.fields,field_description:Formation.field_level_level_write_uid
+#: model:ir.model.fields,field_description:Formation.field_module_module_write_uid
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_write_uid
+#: model:ir.model.fields,field_description:Formation.field_section_section_write_uid
+#: model:ir.model.fields,field_description:Formation.field_session_session_write_uid
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher_write_uid
+#: model:ir.model.fields,field_description:Formation.field_year_year_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_calc_age_wiz_write_date
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_write_date
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_write_date
+#: model:ir.model.fields,field_description:Formation.field_level_level_write_date
+#: model:ir.model.fields,field_description:Formation.field_module_module_write_date
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_write_date
+#: model:ir.model.fields,field_description:Formation.field_section_section_write_date
+#: model:ir.model.fields,field_description:Formation.field_session_session_write_date
+#: model:ir.model.fields,field_description:Formation.field_teacher_teacher_write_date
+#: model:ir.model.fields,field_description:Formation.field_year_year_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_section_section_level_id
+msgid "Level"
+msgstr ""
+
+#. module: Formation
+#: selection:claim.claim,priority:0
+msgid "Low"
+msgstr ""
+
+#. module: Formation
+#: model:res.groups,name:Formation.group_manager
+msgid "Manager"
+msgstr ""
+
+#. module: Formation
+#: selection:claim.claim,priority:0
+msgid "Meduim"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_section_section
+msgid "ModelName"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.model_action_view
+#: model:ir.ui.menu,name:Formation.module_menu
+msgid "Module"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.section_form_view
+msgid "Modules"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_amount
+msgid "Montant"
+msgstr "Price"
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.a
+msgid "Name"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_level_ids
+msgid "Niveau"
+msgstr "Level"
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.level_action_view
+#: model:ir.ui.menu,name:Formation.niveau_menu
+msgid "Niveaux"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_nbr
+msgid "Nobres de Rec"
+msgstr "Claim number"
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_name
+#: model:ir.model.fields,field_description:Formation.field_cycle_cycle_name
+#: model:ir.model.fields,field_description:Formation.field_level_level_name
+#: model:ir.model.fields,field_description:Formation.field_module_module_name
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_name
+#: model:ir.model.fields,field_description:Formation.field_section_section_name
+#: model:ir.model.fields,field_description:Formation.field_session_session_name
+#: model:ir.model.fields,field_description:Formation.field_year_year_name
+msgid "Nom"
+msgstr "Name"
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_nbr_hours
+msgid "Nombres heures"
+msgstr "Hours number"
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.reg_form_view
+msgid "Nouveau"
+msgstr "New"
+
+#. module: Formation
+#: selection:claim.claim,state:0
+#: model:ir.ui.view,arch_db:Formation.claim_request_view_search
+#: selection:registration.registration,state:0
+msgid "Nouvelle"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.teacher_form_view
+msgid "Other Information ..."
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.session_form_view
+#: model:ir.ui.view,arch_db:Formation.year_form_view
+msgid "Page"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.teacher_form_view
+msgid "Position"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_priority
+msgid "Priorité"
+msgstr "Priority"
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.teacher_action_view
+#: model:ir.ui.menu,name:Formation.prof_menu
+msgid "Professeurs"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.clail_action_view
+#: model:ir.model,name:Formation.model_claim_claim
+#: model:ir.ui.menu,name:Formation.clail_menu
+#: model:ir.ui.view,arch_db:Formation.reg_form_view
+msgid "Reclammation"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.claim_request_view_search
+msgid "Responasble"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_user_id
+msgid "Responsable"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.section_action_view
+#: model:ir.model.fields,field_description:Formation.field_module_module_section_id
+#: model:ir.ui.menu,name:Formation.section_menu
+#: model:ir.ui.view,arch_db:Formation.level_form_view
+#: model:ir.ui.view,arch_db:Formation.section_tree_view
+msgid "Section"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.session_action_view
+#: model:ir.ui.menu,name:Formation.session_menu
+msgid "Session"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_sum
+msgid "Somme"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_state
+msgid "State"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_state
+msgid "Status"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_claim_claim_total
+msgid "TOTAL"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.menu,name:Formation.model_name_root_menu
+msgid "Université"
+msgstr ""
+
+#. module: Formation
+#: model:res.groups,name:Formation.group_user
+msgid "User"
+msgstr ""
+
+#. module: Formation
+#: selection:claim.claim,state:0
+#: model:ir.ui.view,arch_db:Formation.claim_request_view_search
+#: model:ir.ui.view,arch_db:Formation.reg_form_view
+#: selection:registration.registration,state:0
+msgid "Valider"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.teacher_form_view
+msgid "Work Information"
+msgstr ""
+
+#. module: Formation
+#: model:ir.actions.act_window,name:Formation.year_action_view
+msgid "Year"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_res_partner_age
+#: model:ir.model.fields,field_description:Formation.field_res_users_age
+msgid "age"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_calc_age_wiz
+msgid "calc.age.wiz"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_cycle_cycle
+msgid "cycle.cycle"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.claim_form_view
+#: model:ir.ui.view,arch_db:Formation.level_form_view
+#: model:ir.ui.view,arch_db:Formation.model_name_form_view
+#: model:ir.ui.view,arch_db:Formation.reg_form_view
+#: model:ir.ui.view,arch_db:Formation.section_form_view
+#: model:ir.ui.view,arch_db:Formation.session_form_view
+#: model:ir.ui.view,arch_db:Formation.teacher_form_view
+#: model:ir.ui.view,arch_db:Formation.year_form_view
+msgid "form_string"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_level_level
+msgid "level.level"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_section_section_module_ids
+msgid "module"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_module_module
+msgid "modules"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_registration_registration_claim_ids
+msgid "reclammation"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_registration_registration
+msgid "registration.registration"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_level_level_section_ids
+msgid "section"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model.fields,field_description:Formation.field_year_year_session_ids
+msgid "session"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_session_session
+msgid "session.session"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.reg_form_view
+msgid "show the information for this"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_teacher_teacher
+msgid "teacher.teacher"
+msgstr ""
+
+#. module: Formation
+#: model:ir.ui.view,arch_db:Formation.claim_tree_view
+#: model:ir.ui.view,arch_db:Formation.cycle_tree_view
+#: model:ir.ui.view,arch_db:Formation.level_tree_view
+#: model:ir.ui.view,arch_db:Formation.model_name_tree_view
+#: model:ir.ui.view,arch_db:Formation.session_tree_view
+#: model:ir.ui.view,arch_db:Formation.teacher_tree_view
+#: model:ir.ui.view,arch_db:Formation.year_tree_view
+msgid "tree_string"
+msgstr ""
+
+#. module: Formation
+#: model:ir.model,name:Formation.model_year_year
+msgid "year.year"
+msgstr ""

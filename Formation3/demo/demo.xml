@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="module_data_id" model="module.module">
+            <field name="name">Python</field>
+            <field name="code">P</field>
+        </record>
+  
+  <record id="module_data_ida" model="module.module">
+            <field name="name">Odoo_11</field>
+            <field name="code">11</field>
+        </record>
+  
+  <record id="module_data_idb" model="module.module">
+            <field name="name">Odoo_10</field>
+            <field name="code">10</field>
+        </record>
+  
+  <!-- demo data for session -->
+  <record id="session_id5" model="session.session">
+            <field name="name">Session</field>
+            <field name="code">1</field>
+        </record>
+        
+        
+    <record id="session_id6" model="session.session">
+            <field name="name">Session_2</field>
+            <field name="code">2</field>
+        </record>
+  
+</odoo>

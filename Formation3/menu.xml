@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   
+			<!-- Menus -->
+<menuitem id="module_root" name="Formation" />
+	<menuitem id="module_root_menu" parent="module_root" name="University"/>
+			<menuitem id="module_menu" name="Module" parent="module_root_menu" action="module_action_view"/>
+	    	<menuitem id="section_menu" name="Section" parent="module_root_menu" action="section_action_view"/>
+	    	<menuitem id="level_menu" name="Level" parent="module_root_menu" action="level_action_view"/>
+	        <menuitem id="cycle_menu" name="cycle" parent="module_root_menu" action="cycle_action_view"/>
+	<menuitem id="insc_root_menu" parent="module_root" name="Inscription"/>
+	        <menuitem id="registration_menu" name="Inscription" parent="insc_root_menu" action="registration_action_view"/>
+	       	<menuitem id="claim_menu" name="Reclamation" parent="insc_root_menu" action="claim_action_view"/>
+	       	
+	       	
+	  <menuitem id="conf_menu" parent="module_root" name="Configuration"/>
+	        <menuitem id="year_menu" name="Annee" parent="conf_menu" action="year_action_view"/>
+	        <menuitem id="session_menu" name="Session" parent="conf_menu" action="session_action_view"/> 
+		
+</odoo>

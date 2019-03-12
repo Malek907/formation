@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--Tree view-->
+            <record model="ir.ui.view" id="level_tree_view">
+                <field name="name">level.level.tree</field>
+                <field name="model">level.level</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Niveau">
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="description"/>
+                        <field name="cycle_id"/>
+                        
+                    </tree>
+                </field>
+            </record>
+            
+			<!--form view-->
+            <record model="ir.ui.view" id="level_form_view">
+                <field name="name">level.level.form</field>
+                <field name="model">level.level</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="form_string">
+                     <sheet>
+                    	<group>
+	                    	<group>
+	                    		<field name="name"/>
+	                    	</group>
+	                    	<group>
+	                    		<field name="code"/>
+	                    	</group>
+	                    	<group>
+	                    		<field name="cycle_id"/>
+	                    	</group>
+                    	</group>
+                    	<notebook>
+                            <page string="Section">
+                                <field name="section_ids"/>
+                                <tree>
+                        <field name="name"/>
+                       <field name="code"/>
+                                
+                                
+                                
+                                </tree>
+                            </page>
+                        </notebook>
+                    </sheet>
+                   </form>
+                </field>
+            </record>
+			
+			<!-- Action view-->
+            <record model="ir.actions.act_window" id="level_action_view">
+                <field name="name">Niveau</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">level.level</field>
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                
+            </record>
+            </odoo>

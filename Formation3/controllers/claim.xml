@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="claim_page" name="Reclemations">
+      <t t-call="website.layout">
+        <div class="oe_structure">
+          <div class="container">
+            <center><h3>Listes Recelemations</h3></center>
+            <t t-foreach="claim_ids" t-as="o">
+              <h4><span t-esc="o.name"/></h4>
+              <table class="table-striped table">
+                <tr>
+                  <td>Date de depart:</td>
+                  <td><span t-esc="o.start_date"/></td>
+                </tr>
+                <tr>
+                  <td>Inscription</td>
+                  <td><span t-esc="o.reg_id.name"/></td>
+                </tr>
+                   <tr>
+                  <td>Responsable</td>
+                  <td><span t-esc="o.user_id.name"/></td>
+                </tr>
+            
+              </table>
+            </t>
+          </div>
+        </div>
+      </t>
+    </template>
+    
+</odoo>

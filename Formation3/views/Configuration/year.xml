@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--Tree view-->
+            <record model="ir.ui.view" id="year_tree_view">
+                <field name="name">year.year.tree</field>
+                <field name="model">year.year</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Annee universitaire">
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="start_date"/>
+                          <field name="end_date"/>
+                        <field name="description"/>
+                    </tree>
+                </field>
+            </record>
+            
+			<!--form view-->
+            <record model="ir.ui.view" id="year_form_view">
+                <field name="name">year.year.form</field>
+                <field name="model">year.year</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="form_string">
+                     <sheet>
+                    	<group>
+	                    	<group>
+	                    		<field name="name"/>
+	                    	</group>
+	                    	<group>
+	                    		<field name="code"/>
+	                    	</group>
+	                    	<group>
+	                    	 <field name="start_date"/>
+                         
+	                    	</group>
+	                    	<group>
+	                    	
+                           <field name="end_date"/>
+                        
+	                    	</group>
+                    	</group>
+                    	<notebook>
+                            <page string="Session">
+                                <field name="session_ids"/>
+                            </page>
+                            <page string="Inscription">
+                                <field name="reg_ids"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                   </form>
+                </field>
+            </record>
+			
+			<!-- Action view-->
+            <record model="ir.actions.act_window" id="year_action_view">
+                <field name="name">Annee universitaire</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">year.year</field>
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+                <!-- <field name="context">{'default_field':'value'}</field>-->
+            </record>
+
+	</odoo>
