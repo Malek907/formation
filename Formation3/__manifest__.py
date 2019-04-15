@@ -58,7 +58,7 @@
         #'static/src/css/ModuleName_style.css'
     ],
     
-    'price': 100.00,
+   
     'currency': 'EUR',
     'installable': True,
     'application': True,
